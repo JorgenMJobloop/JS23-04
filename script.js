@@ -12,6 +12,7 @@ document.getElementById("changeTextBtn").addEventListener("click", () => {
 
 Array.from(buttons).forEach((btn) => {
     btn.style.backgroundColor = "pink"
+    btn.style.color ="black"
 })
 
 document.getElementById("addElementBtn").addEventListener("click", () => {
@@ -30,7 +31,7 @@ document.getElementById("addElementBtn").addEventListener("click", () => {
 
 listItems.forEach((item, index) => {
     item.addEventListener("click", () => {
-        item.textContent = `Clicked item ${index +1}`
+        item.textContent = `You have clicked item ${index +1}`
         item.style.color = "blue"
     })
 })
