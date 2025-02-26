@@ -11,7 +11,7 @@ document.getElementById("changeTextBtn").addEventListener("click", () => {
 })
 
 Array.from(buttons).forEach((btn) => {
-    btn.style.backgroundColor = "pink"
+    btn.style.backgroundColor = "hotpink"
     btn.style.color ="black"
 })
 

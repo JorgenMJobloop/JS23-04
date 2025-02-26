@@ -40,6 +40,7 @@ button{
 .btn{
     width: 150px;
     font-size: 14px;
+    font-weight: 500;
 }
 
 button:hover{
@@ -53,20 +54,18 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
+    padding: 0; 
 
 }
 .item{
     margin: 5px 0px;
     cursor: pointer;
-    list-style-type: none;
+   list-style-type: none;
 }
 #nameInput{
-    height: 30px;
+    height: 36px;
     border-radius: 5px;
     width: 300px;
-    padding: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.302);
+    padding: 8px;
     font-family:'Courier New', Courier, monospace;
-
 }
